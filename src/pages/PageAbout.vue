@@ -32,7 +32,13 @@ onMounted(() => {
 	<ul class="list-disc ml-4">
 		<li>type in any name and press ENTER</li>
 		<li>if you enter a lucky name, you win a prize, which you can accept or reject</li>
-		<li>winning names are: <span class="font-mono text-orange-900 text-sm">{{ people.map((m) => m.name).join(', ') }}</span></li>
+		<li>
+			winning names are:
+			<span class="font-mono text-orange-900 text-sm">{{
+				people.map((m) => m.name).join(', ')
+			}}</span>
+		</li>
 		<li>names are checked with case-sensitivity</li>
 	</ul>
+	<img class="mt-3 shadow-lg shadow-gray-800" src="/images/luckyname.gif" />
 </template>
