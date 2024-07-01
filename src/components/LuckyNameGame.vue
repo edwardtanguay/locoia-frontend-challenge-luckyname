@@ -66,14 +66,14 @@ onMounted(() => {
 			Congratulations, "{{ guessedName }}" is a lucky name! You've won a prize. Will you accept it?
 		</div>
 		<div class="flex gap-2">
-			<button class="btn3" @click="handleAccept">Accept</button>
-			<button class="btn3" @click="handleReject">Reject</button>
+			<button class="btn" @click="handleAccept">Accept</button>
+			<button class="btn" @click="handleReject">Reject</button>
 		</div>
 	</div>
 	<div v-if="appState === 'nameNotInList'">
 		I'm sorry, "{{ guessedName }}" is not in today's list of lucky names.
 		<div class="flex gap-2">
-			<button class="btn3" @click="handleOk">Ok</button>
+			<button class="btn" @click="handleOk">Ok</button>
 		</div>
 	</div>
 	<div v-if="winners.length > 0">Winners: {{ winners.join(', ') }}</div>
