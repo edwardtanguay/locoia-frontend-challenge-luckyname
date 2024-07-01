@@ -1,5 +1,6 @@
 - x git
 - x vercel
-- .. game on home
-- other two pages off
+- x game on home
+- .. other two pages off
+- base about
 - title change 2x
