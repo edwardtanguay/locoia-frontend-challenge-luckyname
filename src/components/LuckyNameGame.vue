@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { reactive, ref, onMounted } from 'vue'
 import { getAll } from '@/api/peopleApi'
-import { Person } from '@/types.ts'
+import type { Person } from '@/types.ts'
 
 type AppState = 'guessing' | 'nameNotInList' | 'nameInList'
 
