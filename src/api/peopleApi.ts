@@ -1,3 +1,5 @@
+import type { Person } from '@/types.ts'
+
 const people = [
 	{ name: 'Joseph' },
 	{ name: 'Ava' },
@@ -25,7 +27,7 @@ const people = [
 	{ name: 'Jacob' }
 ]
 
-export function getAll(canReturnError = false): Promise<any[]> {
+export function getAll(canReturnError = false): Promise<Person[]> {
 	return new Promise((resolve, reject) => {
 		if (!canReturnError) {
 			resolve(people)

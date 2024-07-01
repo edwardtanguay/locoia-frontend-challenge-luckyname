@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { reactive, ref, onMounted } from 'vue'
 import { getAll } from '@/api/peopleApi'
-
-// const people = [{ name: 'Joseph' }, { name: 'Ava' }, { name: 'Olivia' }]
+import { Person } from '@/types.ts'
 
 type AppState = 'guessing' | 'nameNotInList' | 'nameInList'
 
 const guessedName = ref('')
 let appState = ref<AppState>('guessing')
 const winners: string[] = reactive([])
-let people = reactive<any[]>([])
+let people = reactive<Person[]>([])
 
 const nameIsInList = (name: string): boolean => {
 	return people.find((m) => m.name === name) !== undefined
