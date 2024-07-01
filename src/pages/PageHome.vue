@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ExampleBox from '@/components/ExampleBox.vue'
+import ExampleBox from '@/components/DisplayBox.vue'
 import ExampleLuckyNameGame from '@/components/ExampleLuckyNameGame.vue'
 </script>
 
