@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { getAll } from '@/api/peopleApi'
-import type { Person } from '@/types.ts'
+import type { Person } from '@/types'
 
 let people = ref<Person[]>([])
 

@@ -1,4 +1,4 @@
-import type { Person } from '@/types.ts'
+import type { Person } from '@/types'
 
 const people = [
 	{ name: 'Joseph' },
