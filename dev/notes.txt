@@ -1,0 +1,5 @@
+- .. git
+- vercel
+- game on home
+- other two pages off
+- title change 2x
