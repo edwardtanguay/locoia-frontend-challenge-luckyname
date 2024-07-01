@@ -1,4 +1,4 @@
-# vue3-showcase-site
+# locoia-frontend-challenge-luckyname
 
 This is a coding challenge created by Edward Tanguay for Locoia, July 2024
 
@@ -26,3 +26,7 @@ TODO-image
 ```ts
 "dev": "vite --port 3010 --open",
 ```
+
+## instructions
+
+- see the **About** page

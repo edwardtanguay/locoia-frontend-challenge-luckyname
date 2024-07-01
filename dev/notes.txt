@@ -2,8 +2,8 @@
 - x vercel
 - x game on home
 - x other two pages off
-- .. clean
-- .. to components
-- base about
-- title change 2x
+- x clean
+- x to components
+- x title change 2x
+- .. base about
 - notes off
