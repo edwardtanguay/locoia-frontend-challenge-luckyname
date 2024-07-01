@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { reactive, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import { getAll } from '@/api/peopleApi'
 import type { Person } from '@/types.ts'
 
-let people = reactive<Person[]>([])
+let people = ref<Person[]>([])
 
 const fetchData = async () => {
 	try {
-		people = await getAll()
+		people.value = await getAll()
 	} catch (err: any) {
 		throw new Error(err.message)
 	}
@@ -32,7 +32,7 @@ onMounted(() => {
 	<ul class="list-disc ml-4">
 		<li>type in any name and press ENTER</li>
 		<li>if you enter a lucky name, you win a prize, which you can accept or reject</li>
-		<li>winning names are: {{ people.map((m) => m.name).join(', ') }}</li>
+		<li>winning names are: <span class="font-mono text-orange-900 text-sm">{{ people.map((m) => m.name).join(', ') }}</span></li>
 		<li>names are checked with case-sensitivity</li>
 	</ul>
 </template>
