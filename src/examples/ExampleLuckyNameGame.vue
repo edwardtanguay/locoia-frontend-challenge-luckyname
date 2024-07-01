@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, ref, onMounted } from 'vue'
-import { getAll } from '@/data/peopleApi'
+import { getAll } from '@/api/peopleApi'
 
 // const people = [{ name: 'Joseph' }, { name: 'Ava' }, { name: 'Olivia' }]
 

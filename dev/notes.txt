@@ -1,6 +1,9 @@
 - x git
 - x vercel
 - x game on home
-- .. other two pages off
+- x other two pages off
+- .. clean
+- .. to components
 - base about
 - title change 2x
+- notes off
