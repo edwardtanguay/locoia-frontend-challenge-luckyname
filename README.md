@@ -2,7 +2,7 @@
 
 This is a coding challenge created by Edward Tanguay for Locoia, July 2024
 
-TODO-image
+![luckyname](https://github.com/edwardtanguay/locoia-frontend-challenge-luckyname/assets/446574/9cf5677a-7d4f-4d84-af9c-d9d2eba9e7cc)
 
 ## tech features
 
