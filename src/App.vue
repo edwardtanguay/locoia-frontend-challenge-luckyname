@@ -7,7 +7,7 @@ import SiteNav from './components/SiteNav.vue'
 
 <template>
 	<main class="bg-gray-300 p-6 md:w-[50rem] md:rounded w-full">
-		<SiteTitle title="Info Site" />
+		<SiteTitle title="Coding Challenge" subtitle="By Edward Tanguay for Locoia" />
 		<SiteNav />
 		<router-view></router-view>
 	</main>
